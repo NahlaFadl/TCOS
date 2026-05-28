@@ -19,7 +19,7 @@ import com.example.designsystem.baseToken.colors.royalColor
 import com.example.designsystem.baseToken.colors.skyColor
 
 object ColorsPalette {
-    val charry = cherryColor
+    val cherry = cherryColor
     val apricot = apricotColor
     val orange = orangeColor
     val honey = honeyColor
