@@ -2,7 +2,7 @@ package com.example.designsystem.baseToken.semanticTokens
 
 import com.example.designsystem.baseToken.ColorsPalette
 
-val defaultLightColors: ColorSemantic = ColorSemantic(
+val defaultLightColors: ColorScheme = ColorScheme(
     primary = ColorsPalette.sky.t800,
     primaryVariant = ColorsPalette.sky.t50,
     secondary = ColorsPalette.coffee.t800,
@@ -24,7 +24,7 @@ val defaultLightColors: ColorSemantic = ColorSemantic(
     warningVariant = ColorsPalette.honey.t50,
     )
 
-val defaultDarkColors: ColorSemantic = ColorSemantic(
+val defaultDarkColors: ColorScheme = ColorScheme(
     primary = ColorsPalette.sky.t500,
     primaryVariant = ColorsPalette.sky.t900,
     secondary = ColorsPalette.coffee.t500,

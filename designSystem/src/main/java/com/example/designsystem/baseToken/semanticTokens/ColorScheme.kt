@@ -2,7 +2,7 @@ package com.example.designsystem.baseToken.semanticTokens
 
 import androidx.compose.ui.graphics.Color
 
-data class ColorSemantic(
+data class ColorScheme(
     val primary: Color,
     val primaryVariant: Color,
     val secondary: Color,
