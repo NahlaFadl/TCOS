@@ -36,7 +36,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
         modifier = modifier.background(Theme.colors.background),
-        style = TextStyle(
+        style = Theme.typography.sectionTitle.copy(
             color = Theme.colors.primary
         )
     )
