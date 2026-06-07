@@ -21,6 +21,7 @@ import com.example.designsystem.baseToken.semanticTokens.defaultDarkColors
 import com.example.designsystem.baseToken.semanticTokens.defaultLightColors
 import com.example.designsystem.baseToken.them.TCOSThem
 import com.example.designsystem.baseToken.them.Theme
+import com.example.designsystem.component.button.BaseButton
 import com.example.tcossystem.ui.theme.TCOSSystemTheme
 
 class MainActivity : ComponentActivity() {
@@ -29,7 +30,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             TCOSThem {
-                TestCompose()
+//                TestCompose()
+                BaseButton(
+                    onClick = {},
+                    caption = "Add"
+                )
             }
         }
     }
