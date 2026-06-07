@@ -27,7 +27,7 @@ import com.example.designsystem.baseToken.them.TCOSThem
 import com.example.designsystem.baseToken.them.Theme
 
 @Composable
-fun BaseButton(
+internal fun BaseButton(
     modifier: Modifier = Modifier,
     onClick: () -> Unit,
     icon: Painter? = null,
