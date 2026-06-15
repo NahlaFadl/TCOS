@@ -1,4 +1,4 @@
-package com.example.designsystem.component.radiobutton
+package com.example.designsystem.component.selectable
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
