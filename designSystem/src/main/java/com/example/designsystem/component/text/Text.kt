@@ -52,7 +52,7 @@ fun SectionTitle(
 }
 
 @Composable
-fun CardTitle(
+fun CardTitleText(
     text: String,
     modifier: Modifier = Modifier,
     color: Color = Theme.colors.shadePrimary
@@ -60,9 +60,8 @@ fun CardTitle(
     Text(
         text = text,
         modifier = modifier,
-        style = Theme.typography.cardTitle.copy(
-            color = color
-        )
+        style = Theme.typography.cardTitle,
+        color = color
     )
 }
 
