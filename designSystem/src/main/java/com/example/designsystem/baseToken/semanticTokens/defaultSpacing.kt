@@ -10,5 +10,5 @@ val defaultSpacing = Space(
     large = 12.dp,
     huge = 16.dp,
     giant = 24.dp,
-    massive = 32.dp
+    massive = 42.dp
 )
