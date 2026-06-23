@@ -73,9 +73,8 @@ fun SubTitle(
     Text(
         text = text,
         modifier = modifier,
-        style = Theme.typography.sectionTitle.copy(
-            color = color
-        )
+        style = Theme.typography.sectionTitle,
+        color = color
     )
 }
 

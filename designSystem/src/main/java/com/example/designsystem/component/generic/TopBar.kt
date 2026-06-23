@@ -44,7 +44,7 @@ fun TopBar(
     Row(
         modifier = modifier
             .fillMaxWidth()
-            .height(Theme.space.massive)
+            .height(Theme.size.massive)
             .background(Theme.colors.background)
             .padding(
                 horizontal = Theme.space.huge,
