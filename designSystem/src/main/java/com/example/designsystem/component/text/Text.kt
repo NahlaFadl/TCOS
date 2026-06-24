@@ -117,9 +117,8 @@ fun TextSupportContent(
     Text(
         text = text,
         modifier = modifier,
-        style = Theme.typography.supportingContent.copy(
-            color = color
-        )
+        style = Theme.typography.supportingContent,
+        color = color
     )
 }
 
