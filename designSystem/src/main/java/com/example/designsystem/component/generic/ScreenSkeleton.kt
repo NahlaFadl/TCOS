@@ -43,7 +43,7 @@ fun ScreenSkeleton(
                     .weight(1f)
                     .fillMaxWidth()
             ) {
-                content
+                content()
             }
             bottomBar()
         }

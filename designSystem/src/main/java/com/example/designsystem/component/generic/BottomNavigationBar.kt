@@ -36,7 +36,7 @@ import com.example.designsystem.component.text.Hint
 fun BottomNavigationBar(
     tabs: List<BottomNavigationBarTab>,
     modifier: Modifier = Modifier,
-    onTabChange: (BottomNavigationBarTab) -> Unit
+    onTabChange:  (BottomNavigationBarTab) -> Unit
 ) {
     var selectedTabIndex by remember { mutableIntStateOf(0) }
     Row(
