@@ -3,11 +3,14 @@ package com.example.designsystem.component.generic
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.systemBars
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.Favorite
@@ -35,6 +38,7 @@ fun ScreenSkeleton(
         Modifier
             .fillMaxSize()
             .background(Theme.colors.background)
+            .padding(WindowInsets.systemBars.asPaddingValues())
     ) {
         Column(Modifier.fillMaxSize()) {
             topBar()

@@ -38,7 +38,7 @@ import com.example.designsystem.vectors.Store
 //}
 
 @Composable
-private fun HomeContent(
+ fun HomeContent(
     state: HomeScreenState,
 //    listener:HSI
 ) {

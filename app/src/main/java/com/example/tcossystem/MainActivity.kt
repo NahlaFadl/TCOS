@@ -21,6 +21,8 @@ import com.example.designsystem.baseToken.semanticTokens.defaultDarkColors
 import com.example.designsystem.baseToken.semanticTokens.defaultLightColors
 import com.example.designsystem.baseToken.them.TCOSThem
 import com.example.designsystem.baseToken.them.Theme
+import com.example.designsystem.homeScreen.homeScreenState.HomeContent
+import com.example.designsystem.homeScreen.homeScreenState.HomeScreenState
 import com.example.tcossystem.ui.theme.TCOSSystemTheme
 
 class MainActivity : ComponentActivity() {
@@ -29,7 +31,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             TCOSThem {
-                TestCompose()
+//                TestCompose()
+                HomeContent(HomeScreenState())
             }
         }
     }
